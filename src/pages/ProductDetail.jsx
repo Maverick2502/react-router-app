@@ -6,7 +6,7 @@ function ProductDetail() {
 
   return (
     <section>
-      <h1>Product Detail</h1>
+      <h1 style={{ textAlign: "center" }}>Product Detail</h1>
     </section>
   );
 }

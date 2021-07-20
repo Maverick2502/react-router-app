@@ -5,6 +5,12 @@ import Products from "./pages/Products";
 import Welcome from "./pages/Welcome";
 
 function App() {
+  /**
+   * React Router goes 'top-to-bottom'.
+   * It matches the start of the path. Not the entire path.
+   * Two solutions: changing the order or adding 'exact'
+   */
+
   return (
     <header>
       <nav>
