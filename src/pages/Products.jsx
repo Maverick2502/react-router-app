@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Products() {
   return (
     <section>
-      <h1 style={{ textAlign: "center" }}>The Products Page.</h1>
+      <h1 className="textAlign">The Products Page.</h1>
       <ul>
         <li>
           <Link to="/products/p1">House</Link>
