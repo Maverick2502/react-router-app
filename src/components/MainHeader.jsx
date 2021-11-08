@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import classes from "./MainHeader.module.css";
 
 function MainHeader() {
+  // We're using NavLink coz we need :active Link styling in here.
   return (
     <header className={classes.header}>
       <nav>
